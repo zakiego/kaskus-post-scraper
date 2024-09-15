@@ -3,6 +3,8 @@
 
 [![Test Status](https://github.com/zakiego/kaskus-post-scraper/actions/workflows/test.yml/badge.svg)](https://github.com/zakiego/kaskus-post-scraper/actions/workflows/test.yml)
 
+<img width="1223" alt="image" src="https://github.com/user-attachments/assets/2b90971d-b56c-4079-aca0-3f1caad31f2e">
+
 A simple tool to scrape posts from Kaskus threads. Whether you’re gathering data or just curious, this scraper gets the job done! 🔍
 
 ## Setup & Usage 🚀
@@ -34,6 +36,10 @@ Follow these steps to clone, set up, and run the scraper:
     ```bash
     python main.py
     ```
+
+5. Output:
+
+The scraped data will be saved to an Excel file (.xlsx) in the project directory.
 
 ## Contributing 🤝
 
