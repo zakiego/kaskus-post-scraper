@@ -1,11 +1,14 @@
 import pandas as pd
 
 from src.model import Data
-from src.utils import extract_data, fetch_page, get_total_pages
+from src.utils import extract_data, fetch_page, get_total_pages, print_header
 
 
 async def main():
+    print_header()
+
     username = input("Enter username: ")
+
     totalPage = await get_total_pages(username)
     print(f"[+] Total pages for {username}: {totalPage}")
 

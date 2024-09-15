@@ -71,3 +71,11 @@ async def extract_data(html: str) -> List[Data]:
             print(f"Validation error: {e}")
 
     return content
+
+
+def print_header():
+    title = "Kaskus Post Scraper"
+    print("=" * len(title))
+    print(title)
+    print("=" * len(title))
+    print()
