@@ -18,7 +18,8 @@ async def main():
         data.extend(content)
 
     df = pd.DataFrame([d.dict() for d in data])
-    # df.to_csv("output.csv", index=False)
-    df.to_excel("output.xlsx", index=False)
+
+    output_file = f"{username}-{pd.Timestamp.now().strftime('%Y%m%d%H%M%S')}.xlsx"
+    df.to_excel(output_file, index=False)
     print("[+] Done!")
-    print("[+] Data saved to output.xlsx")
+    print(f"[+] Data saved to {output_file}")
