@@ -1,0 +1,5 @@
+__pycache__
+*.csv
+*.xlsx
+.venv
+.pytest_cache
